@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a234695438afac4a8fc48981962bf9a, type: 3}
+  m_Name: SlowField
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7737919222014732801, guid: 6f9da791af5d59e4ba86ffec44416d9b, type: 3}
+  abilityName: Slow field
+  cooldownTime: 10
+  activationCost: 50
+  abilityIcon: {fileID: 21300000, guid: f6d6f1b56d24d1644a975104eab49d5f, type: 3}
+  Description: Deploy a slow zone that slow down enemy player by 35%. The field will
+    disappear after 5 + Skill level second.
+  slowPercentage: 0.35
