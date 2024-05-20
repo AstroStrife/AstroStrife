@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7640ddddd58ca6a47b981a07188a1efe, type: 3}
+  m_Name: Nova
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
+  abilityName: Quantum engine
+  cooldownTime: 40
+  activationCost: 250
+  abilityIcon: {fileID: 21300000, guid: 2091fd72f88eb304bb6c9db86356847c, type: 3}
+  Description: Cant get hit by bullet and some damage skill also can walk through
+    a wall for 5 + skill level second.
