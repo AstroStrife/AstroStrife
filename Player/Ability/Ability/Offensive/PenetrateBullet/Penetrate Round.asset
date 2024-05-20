@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338f58b2e7b040349ad744a0360fc31b, type: 3}
+  m_Name: Penetrate Round
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4381495956711695857, guid: d27ddde8ea57c814abe13ed5159f3d9d, type: 3}
+  abilityName: Penetrate Round
+  cooldownTime: 4
+  activationCost: 40
+  abilityIcon: {fileID: 21300000, guid: 09e7f92515958eb4fa3be67791174701, type: 3}
+  Description: Shoot a bullet that ignore defense and deal damage 100% * (1 + (Skill
+    level x 0.5)).
