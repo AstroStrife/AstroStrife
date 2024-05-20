@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f618d131aacf16241b9880ca980bea95, type: 3}
+  m_Name: Offensive Ship
+  m_EditorClassIdentifier: 
+  MaxHealthPoint: 800
+  HealthPointRegeneration: 3
+  Defense: 25
+  MovementSpeed: 35
+  AttackDamage: 80
+  AttackSpeedPerSec: 1
+  CooldownHaste: 0
+  MaxEnergyPoint: 350
+  EnergyPointRegeneration: 6
+  attackRange: 0
+  DetectRange: 0
+  MoneyValue: 300
+  EXPValue: 25
+  GrowthMaxHealthPoint: 80
+  GrowthHealthPointRegeneration: 0.5
+  GrowthDefense: 10
+  GrowthAttackDamage: 30
+  GrowthEnergyPoint: 35
+  GrowthEnergyPointRegeneration: 0.5
