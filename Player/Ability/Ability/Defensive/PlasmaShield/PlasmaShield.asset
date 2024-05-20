@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8455938d3689bd418897e8583631e4d, type: 3}
+  m_Name: PlasmaShield
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
+  abilityName: Plasma shield
+  cooldownTime: 10
+  activationCost: 40
+  abilityIcon: {fileID: 21300000, guid: 78025d7e1aa15c9468a80c2aad1e07d6, type: 3}
+  Description: Increase defense temporary. The increase value is defense * (1.5 +
+    (Skill level x 0.5)).
+  DefUp: 1.5
+  duration: 5

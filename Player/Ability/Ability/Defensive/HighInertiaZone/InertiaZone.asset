@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef2cce6f798ad3948a684562d4e92f6b, type: 3}
+  m_Name: InertiaZone
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7792161872372954481, guid: 25be6274870f1eb439120498fb91852f, type: 3}
+  abilityName: High inertia zone
+  cooldownTime: 10
+  activationCost: 50
+  abilityIcon: {fileID: 21300000, guid: 8143ce2f569228e4a8e7b9ce6ce13157, type: 3}
+  Description: Deploy a slow and deduce damage zone to bullet passed by. The bullet
+    speed and damage / (1 + (Skill level x 0.5)).

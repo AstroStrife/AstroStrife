@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4de7484be8e475418f7c3764b7aa7b2, type: 3}
+  m_Name: PortableWall
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7540279553529808744, guid: 82cdd33ab64f8434a9274a7c942db891, type: 3}
+  abilityName: Portable wall
+  cooldownTime: 20
+  activationCost: 120
+  abilityIcon: {fileID: 21300000, guid: e35b0e1d8ef2dd149b6c8ec5d9f1becd, type: 3}
+  Description: Make wall at mouse location. It will disappear after 10 + Skill level
+    second.
