@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98048a9c218fb3e40be3e9566738815e, type: 3}
+  m_Name: WaveSignal
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5919026246451469095, guid: cc5c002ec3b2fd949abcedefc8d9d50f, type: 3}
+  abilityName: Special wave signal
+  cooldownTime: 40
+  activationCost: 250
+  abilityIcon: {fileID: 21300000, guid: b13e1ada0a5d17f41a4d30140e66b313, type: 3}
+  Description: Force all enemy energy points around ship to reduce to zero and do
+    damage to health by energy point consume * (3 + skill level).
+  DamageMultiplier: 3
+  detectionRadius: 100
